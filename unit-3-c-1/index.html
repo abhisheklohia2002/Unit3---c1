@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *{
+        margin: 0;
+
+      }
+      #navbar{
+        text-align: center;
+      }
+    #Show_Products{
+      margin-top: 2vw;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      height: 3vw;
+      width: 20vw;
+      font-size: 23px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: rgb(119, 161, 35);
+
+    }
+    #Show_Products:hover{
+      background-color: brown;
+      cursor: pointer;
+    }
+    h2{
+      margin-bottom: 1vw;
+      text-align: center;
+      color: rgb(168, 151, 131);
+      font-size: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    #products{
+     
+      text-align: center;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      width: 30vw;
+      margin: auto;
+      height: 32vw;
+      padding-top: 2%;
+      background-color: rgb(198, 211, 211);
+    }
+    input{
+      height: 3vw;
+      width: 25vw;
+      margin-bottom: 1vw;
+      margin-top:7px;
+      font-size: 20px
+      ;
+     
+    }
+    label{
+      padding-right: 25vw;
+       font-size: 1.5vw;
+       font-family: Arial, Helvetica, sans-serif;
+       margin-left: 1vw;
+    }
+    #l2{
+      padding-left: 17px;
+      /* padding-left: 1.5vw;
+       */
+      font-size: 1.5vw;
+    }
+    #l1{
+      padding-left: 18px
+;
+    }
+    #l3{
+      padding-left: 20px
+;
+    }
+    #l4{
+      padding-left: 20px;
+      
+    }
+#add{
+  height: 3.5vw;
+  font-size: 1.5vw;
+      width: 26vw;
+      background-color: rgb(186, 127, 127);
+}
+#add:hover{
+  background-color: crimson;
+  cursor: pointer;
+}
+body{
+  background-color: antiquewhite;
+}
+#flex{
+  box-shadow: rgba(61, 58, 58, 0.24) 0px 3px 8px;
+  margin-top: 1.5vw;
+  margin-bottom: 2vw;
+  display: flex;
+  font-size: 26px;
+  background-color: rgb(161, 136, 136);
+  font-family: Arial, Helvetica, sans-serif;
+}
+    </style>
+  </head>
+
+  <body>
+    <div id="navbar">
+      <!--Create Show Products button here, give id as "show_products". avoid making spelling mistakes in HTML id's-->
+      <button id="Show_Products"> Show Products</button>
+
+    </div>
+    <div id="flex">
+      <div>Products No-</div>
+      <div id="count"></div>
+    </div>
+    
+    <div>
+      <h2>Add Products</h2>
+      <!--Create a form here to accept product data from user, give form HTML id as "products"-->
+
+      <!--Create four inputs to accept Type, Description, price, & image-->
+      <!--give the inputs following respective id's, "type", "desc", "price","image"-->
+      <!--create a "Add Product" button to submit form, give it html id as "add_product"-->
+
+      <form action="" id="products">
+        <label for="" id="l1">Type</label><br>
+        <input type="text" name="" id="Type"/><br>
+        <label for="" id="l2">Description</label><br>
+        <input type="text" name="" id="Description"><br>
+        <label for="" id="l3">Price</label><br>
+        <input type="number" name="" id="price"><br>
+        <label for="" id="l4">Image</label><br>
+        <input type="url" name="" id="image"><br>
+        <button id="add">Add Product</button>
+        
+      </form>
+      </form>
+    </div>
+  </body>
+</html>
+
+<script src="index.js"></script>
